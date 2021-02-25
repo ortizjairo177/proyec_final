@@ -1,0 +1,271 @@
+
+
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    /*ancho  de la pagina*/
+    
+    background-image: radial-gradient(circle at 25.66% -2.21%,
+                      #c2ffff 0, #bcf7ff 25%, #b5def2 50%,
+                      #acc6d4 75%, #a2afb8 100%);
+    /* height: 100%;
+    width: 100%;
+    position: absolute;  */ 
+    
+    } 
+   /*    nav {
+    
+      color: seashell;
+       
+    }  */  
+
+nav ul li:hover  {
+
+        background-color: rgb(223, 163, 163);
+
+    }
+
+nav ul li a {
+
+        text-decoration: none;
+        color: #000000;
+        }
+
+a:visited {
+
+            color: #141414;
+               }
+
+a:active {
+
+            color: #e27f0e;
+        }
+
+.secc-login{
+            max-width: 500px;
+            vertical-align: top;
+            margin: 0 auto;
+           
+        }
+   
+.art-contactus{
+            max-width: 500px;
+            vertical-align: top;
+            margin: 0 auto;
+           
+        }
+
+.sect-cont{
+        background-color: rgb(203, 221, 162);
+
+    }
+
+.sect-prod{
+        background-color: rgb(180, 93, 119);
+        padding-top: 1em;
+        padding-bottom:1em; 
+
+    }
+     
+.sec-misprod {   
+
+    background-color: burlywood;
+    padding-top: 15px; 
+
+    padding-top: 2rem;
+    width: 900px;
+    margin: 0 auto;     
+
+}
+
+.contenedor {
+
+    max-width: 900px; 
+    margin: 0 auto; /* margen automatico para todos los lados*/
+}
+
+.fp-video{
+    width: 50%;
+   /* padding: 2em;  cada em son 14 px como hay 2em son 28Px*/
+   padding: 28px;
+      }
+
+.ft-art{
+    width: 40%;
+    padding: 2em;
+    vertical-align: top;
+    }
+
+ 
+article {
+     padding: 30px;
+     background-color: rgba(134, 240, 148, 0.54);
+ }
+article h1{
+    border-bottom: solid thin black;
+}
+
+.fp-video , .ft-art {
+    display: inline-block;
+}
+
+.artfigure img{
+ max-width: 100%; 
+ margin: 0;
+
+}
+
+.art-cont {
+  width: 740px;
+  vertical-align: top;
+}
+
+h2{
+  margin: 0;
+  border-bottom: solid thin black;
+  text-align: center;
+
+}
+
+.boton-container {
+    text-align: center;
+     margin: 0 auto;  /*alinea el texto en contenedor centro*/    
+
+}
+.boton-container a{
+    text-decoration: none;
+    color: rgb(69, 8, 182);
+}
+
+.boton {
+  padding: 5px;
+  
+   
+}
+.boton-container:hover{
+    background-color: #1fbea4;       
+    margin: 15px 90px 0px 90px;
+}
+
+ footer{
+
+    background-color: rgb(134, 171, 240);
+    color: white;
+    clear: both;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+ }
+
+ /* estilos de listados de products */
+
+ .boton-containmisp {
+
+    text-align:center;
+    margin-left: auto;
+    padding: 5px; 
+    background-color: rgb(171, 173, 39);
+    width: 955px; 
+    border-radius: 60px;      
+
+}
+
+.boton-containmisp:hover a{
+     
+   margin: 0 auto;
+   color:#fff; 
+   padding: 8px;
+  
+      
+} 
+
+.secmisproductos {                
+   
+   padding-top: 1rem;
+   width: 900px;
+   margin: 0 auto;
+    
+
+}
+/* Estilos para la pag de misproductos*/
+
+.tabla_colums {
+ 
+   width: 1200px;
+   margin: 2em auto;
+   padding: 2em;
+   background-color: sandybrown;
+   
+}
+
+.bord-sup{
+    margin-top: 2em;
+}
+
+.seccion-prod{
+    max-width: 840px;
+    vertical-align: top;
+    margin: 0 auto;
+   
+}
+
+/* con flex dce prueba  no funciona pàra ajustar imgs
+.containertab {
+
+    margin: auto;
+   display: flex;
+ 
+   flex-wrap: nowrap;
+   justify-content: space-between;    
+   
+}
+*/
+.item {
+
+   background: #00b285;
+   width: 23.5%;
+   height: 100px;
+   color: #fff;
+   margin-bottom: 2%;
+   margin: 10px auto;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.subitemm {
+
+   background: #360652;    
+   color: #fff;  
+   font-size: 20px;
+   text-align: center;    
+   
+}
+
+
+/* la imagen no se ajusta automatica en el respo*/
+.img-misproduc {
+  
+   max-width: 40%; 
+   margin: 0;      
+
+}
+
+/* estilos home */
+/* .carous{
+  width: 4320px;
+
+} */
+
+
+.carousel .carousel-item {
+    max-width:100% !important;
+        
+}
+
+/* quitar las lineas subrayadas */
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
